@@ -1,0 +1,841 @@
+{
+  "cost": 944,
+  "interval": "0:15:00",
+  "namespace": "Microsoft.DBforMySQL/flexibleServers",
+  "resourceregion": "northeurope",
+  "timespan": "2023-06-23T19:59:03Z/2023-06-23T20:59:03Z",
+  "value": [
+    {
+      "displayDescription": "Host CPU Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/cpu_percent",
+      "name": {
+        "localizedValue": "Host CPU Percent",
+        "value": "cpu_percent"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 14.51,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 99.61,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 99.5,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 99.61,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "Host Memory Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/memory_percent",
+      "name": {
+        "localizedValue": "Host Memory Percent",
+        "value": "memory_percent"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 42.23,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 45.82,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 45.64,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 46.12,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "Host Network egress in bytes",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/network_bytes_egress",
+      "name": {
+        "localizedValue": "Host Network Out",
+        "value": "network_bytes_egress"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 122763663174.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 79472604976.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 108277340081.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 73959208819.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Bytes"
+    },
+    {
+      "displayDescription": "Host Network ingress in bytes",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/network_bytes_ingress",
+      "name": {
+        "localizedValue": "Host Network In",
+        "value": "network_bytes_ingress"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 14285768311.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 13779029959.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 21224946130.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 14623877159.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Bytes"
+    },
+    {
+      "displayDescription": "Active Connections",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/active_connections",
+      "name": {
+        "localizedValue": "Active Connections",
+        "value": "active_connections"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 44.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 135.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 135.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 135.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "Queries",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/Queries",
+      "name": {
+        "localizedValue": "Queries",
+        "value": "Queries"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 61100.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 26239350.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 82693043.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 55974530.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "Storage I/O consumption percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/io_consumption_percent",
+      "name": {
+        "localizedValue": "Storage IO Percent",
+        "value": "io_consumption_percent"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 100.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 100.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 33.77,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 32.02,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "The number of I/O consumed.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/storage_io_count",
+      "name": {
+        "localizedValue": "IO Count",
+        "value": "storage_io_count"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "Storage Percent",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/storage_percent",
+      "name": {
+        "localizedValue": "Storage Percent",
+        "value": "storage_percent"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 5.38,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 5.95,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 5.99,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 6.02,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Percent"
+    },
+    {
+      "displayDescription": "Storage Used",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/storage_used",
+      "name": {
+        "localizedValue": "Storage Used",
+        "value": "storage_used"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 29574634747.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 32712878294.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 32926788850.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 33098762043.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Bytes"
+    },
+    {
+      "displayDescription": "Storage IO requests throttled in the selected time range.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/storage_throttle_count",
+      "name": {
+        "localizedValue": "Storage Throttle Count",
+        "value": "storage_throttle_count"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": 0.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 0.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": 0.0,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": null
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": null
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of queries that have taken more than long_query_time seconds.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/Slow_queries",
+      "name": {
+        "localizedValue": "Slow Queries",
+        "value": "Slow_queries"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of logical reads that InnoDB could not satisfy from the buffer pool, and had to read directly from disk.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_reads",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Reads",
+        "value": "Innodb_buffer_pool_reads"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of logical read requests.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_read_requests",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Read Requests",
+        "value": "Innodb_buffer_pool_read_requests"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 346283418.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 815804730.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 2254395580.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 1526313069.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of free pages in the InnoDB buffer pool.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_pages_free",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Pages Free",
+        "value": "Innodb_buffer_pool_pages_free"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 62235595.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 53625643.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 53007392.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 52850488.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    },
+    {
+      "displayDescription": "The number of pages in the InnoDB buffer pool containing data.",
+      "errorCode": "Success",
+      "errorMessage": null,
+      "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforMySQL/flexibleServers/benchant-ce369928-97af-5073-a067-67ddbf372c11/providers/Microsoft.Insights/metrics/Innodb_buffer_pool_pages_data",
+      "name": {
+        "localizedValue": "InnoDB Buffer Pool Pages Data",
+        "value": "Innodb_buffer_pool_pages_data"
+      },
+      "resourceGroup": "benchANT-northeurope",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T19:59:00+00:00",
+              "total": 32124868.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:14:00+00:00",
+              "total": 40736835.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:29:00+00:00",
+              "total": 41356047.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2023-06-23T20:44:00+00:00",
+              "total": 41512961.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    }
+  ]
+}

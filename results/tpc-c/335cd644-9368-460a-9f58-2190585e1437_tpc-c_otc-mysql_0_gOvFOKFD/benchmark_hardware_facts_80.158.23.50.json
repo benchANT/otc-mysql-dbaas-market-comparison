@@ -1,0 +1,768 @@
+{
+    "all_ipv4_addresses": [
+        "10.0.91.84"
+    ],
+    "all_ipv6_addresses": [
+        "fe80::f816:3eff:fe43:9e97"
+    ],
+    "ansible_local": {},
+    "apparmor": {
+        "status": "enabled"
+    },
+    "architecture": "x86_64",
+    "bios_date": "04/01/2014",
+    "bios_vendor": "SeaBIOS",
+    "bios_version": "rel-1.10.2-0-g5f4c7b1-20220430_190938-szxrtosci10000",
+    "board_asset_tag": "NA",
+    "board_name": "NA",
+    "board_serial": "NA",
+    "board_vendor": "NA",
+    "board_version": "NA",
+    "chassis_asset_tag": "NA",
+    "chassis_serial": "NA",
+    "chassis_vendor": "QEMU",
+    "chassis_version": "pc-i440fx-2.8",
+    "cmdline": {
+        "BOOT_IMAGE": "/boot/vmlinuz-5.4.0-152-generic",
+        "console": "ttyS0",
+        "ro": true,
+        "root": "LABEL=cloudimg-rootfs"
+    },
+    "date_time": {
+        "date": "2023-07-11",
+        "day": "11",
+        "epoch": "1689058241",
+        "hour": "06",
+        "iso8601": "2023-07-11T06:50:41Z",
+        "iso8601_basic": "20230711T065041690243",
+        "iso8601_basic_short": "20230711T065041",
+        "iso8601_micro": "2023-07-11T06:50:41.690243Z",
+        "minute": "50",
+        "month": "07",
+        "second": "41",
+        "time": "06:50:41",
+        "tz": "UTC",
+        "tz_offset": "+0000",
+        "weekday": "Tuesday",
+        "weekday_number": "2",
+        "weeknumber": "28",
+        "year": "2023"
+    },
+    "default_ipv4": {
+        "address": "10.0.91.84",
+        "alias": "ens3",
+        "broadcast": "10.0.255.255",
+        "gateway": "10.0.0.1",
+        "interface": "ens3",
+        "macaddress": "fa:16:3e:43:9e:97",
+        "mtu": 1500,
+        "netmask": "255.255.0.0",
+        "network": "10.0.0.0",
+        "type": "ether"
+    },
+    "default_ipv6": {},
+    "device_links": {
+        "ids": {
+            "vda": [
+                "virtio-1eba4b1d-c39e-4aa9-9"
+            ],
+            "vda1": [
+                "virtio-1eba4b1d-c39e-4aa9-9-part1"
+            ]
+        },
+        "labels": {
+            "vda1": [
+                "cloudimg-rootfs"
+            ]
+        },
+        "masters": {},
+        "uuids": {
+            "vda1": [
+                "e33ff243-1a00-481d-8bd2-fbc233c723db"
+            ]
+        }
+    },
+    "devices": {
+        "loop0": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "129952",
+            "sectorsize": "512",
+            "size": "63.45 MB",
+            "support_discard": "4096",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop1": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "188072",
+            "sectorsize": "512",
+            "size": "91.83 MB",
+            "support_discard": "4096",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop2": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "109072",
+            "sectorsize": "512",
+            "size": "53.26 MB",
+            "support_discard": "4096",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop3": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "0",
+            "sectorsize": "512",
+            "size": "0.00 Bytes",
+            "support_discard": "4096",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop4": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "0",
+            "sectorsize": "512",
+            "size": "0.00 Bytes",
+            "support_discard": "0",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop5": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "0",
+            "sectorsize": "512",
+            "size": "0.00 Bytes",
+            "support_discard": "0",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop6": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "0",
+            "sectorsize": "512",
+            "size": "0.00 Bytes",
+            "support_discard": "0",
+            "vendor": null,
+            "virtual": 1
+        },
+        "loop7": {
+            "holders": [],
+            "host": "",
+            "links": {
+                "ids": [],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {},
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "0",
+            "sectorsize": "512",
+            "size": "0.00 Bytes",
+            "support_discard": "0",
+            "vendor": null,
+            "virtual": 1
+        },
+        "vda": {
+            "holders": [],
+            "host": "SCSI storage controller: Red Hat, Inc. Virtio block device",
+            "links": {
+                "ids": [
+                    "virtio-1eba4b1d-c39e-4aa9-9"
+                ],
+                "labels": [],
+                "masters": [],
+                "uuids": []
+            },
+            "model": null,
+            "partitions": {
+                "vda1": {
+                    "holders": [],
+                    "links": {
+                        "ids": [
+                            "virtio-1eba4b1d-c39e-4aa9-9-part1"
+                        ],
+                        "labels": [
+                            "cloudimg-rootfs"
+                        ],
+                        "masters": [],
+                        "uuids": [
+                            "e33ff243-1a00-481d-8bd2-fbc233c723db"
+                        ]
+                    },
+                    "sectors": "104855519",
+                    "sectorsize": 512,
+                    "size": "50.00 GB",
+                    "start": "2048",
+                    "uuid": "e33ff243-1a00-481d-8bd2-fbc233c723db"
+                }
+            },
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "mq-deadline",
+            "sectors": "104857600",
+            "sectorsize": "512",
+            "size": "50.00 GB",
+            "support_discard": "0",
+            "vendor": "0x1af4",
+            "virtual": 1
+        }
+    },
+    "distribution": "Ubuntu",
+    "distribution_file_parsed": true,
+    "distribution_file_path": "/etc/os-release",
+    "distribution_file_variety": "Debian",
+    "distribution_major_version": "20",
+    "distribution_release": "focal",
+    "distribution_version": "20.04",
+    "dns": {
+        "nameservers": [
+            "127.0.0.53"
+        ],
+        "options": {
+            "edns0": true,
+            "trust-ad": true
+        },
+        "search": [
+            "openstacklocal"
+        ]
+    },
+    "domain": "",
+    "effective_group_id": 1000,
+    "effective_user_id": 1000,
+    "ens3": {
+        "active": true,
+        "device": "ens3",
+        "features": {
+            "esp_hw_offload": "off [fixed]",
+            "esp_tx_csum_hw_offload": "off [fixed]",
+            "fcoe_mtu": "off [fixed]",
+            "generic_receive_offload": "on",
+            "generic_segmentation_offload": "on",
+            "highdma": "on [fixed]",
+            "hw_tc_offload": "off [fixed]",
+            "l2_fwd_offload": "off [fixed]",
+            "large_receive_offload": "off [fixed]",
+            "loopback": "off [fixed]",
+            "netns_local": "off [fixed]",
+            "ntuple_filters": "off [fixed]",
+            "receive_hashing": "off [fixed]",
+            "rx_all": "off [fixed]",
+            "rx_checksumming": "on [fixed]",
+            "rx_fcs": "off [fixed]",
+            "rx_gro_hw": "on",
+            "rx_udp_tunnel_port_offload": "off [fixed]",
+            "rx_vlan_filter": "on [fixed]",
+            "rx_vlan_offload": "off [fixed]",
+            "rx_vlan_stag_filter": "off [fixed]",
+            "rx_vlan_stag_hw_parse": "off [fixed]",
+            "scatter_gather": "on",
+            "tcp_segmentation_offload": "on",
+            "tls_hw_record": "off [fixed]",
+            "tls_hw_rx_offload": "off [fixed]",
+            "tls_hw_tx_offload": "off [fixed]",
+            "tx_checksum_fcoe_crc": "off [fixed]",
+            "tx_checksum_ip_generic": "on",
+            "tx_checksum_ipv4": "off [fixed]",
+            "tx_checksum_ipv6": "off [fixed]",
+            "tx_checksum_sctp": "off [fixed]",
+            "tx_checksumming": "on",
+            "tx_esp_segmentation": "off [fixed]",
+            "tx_fcoe_segmentation": "off [fixed]",
+            "tx_gre_csum_segmentation": "off [fixed]",
+            "tx_gre_segmentation": "off [fixed]",
+            "tx_gso_partial": "off [fixed]",
+            "tx_gso_robust": "on [fixed]",
+            "tx_ipxip4_segmentation": "off [fixed]",
+            "tx_ipxip6_segmentation": "off [fixed]",
+            "tx_lockless": "off [fixed]",
+            "tx_nocache_copy": "off",
+            "tx_scatter_gather": "on",
+            "tx_scatter_gather_fraglist": "off [fixed]",
+            "tx_sctp_segmentation": "off [fixed]",
+            "tx_tcp6_segmentation": "on",
+            "tx_tcp_ecn_segmentation": "off [fixed]",
+            "tx_tcp_mangleid_segmentation": "off",
+            "tx_tcp_segmentation": "on",
+            "tx_udp_segmentation": "off [fixed]",
+            "tx_udp_tnl_csum_segmentation": "off [fixed]",
+            "tx_udp_tnl_segmentation": "off [fixed]",
+            "tx_vlan_offload": "off [fixed]",
+            "tx_vlan_stag_hw_insert": "off [fixed]",
+            "vlan_challenged": "off [fixed]"
+        },
+        "hw_timestamp_filters": [],
+        "ipv4": {
+            "address": "10.0.91.84",
+            "broadcast": "10.0.255.255",
+            "netmask": "255.255.0.0",
+            "network": "10.0.0.0"
+        },
+        "ipv6": [
+            {
+                "address": "fe80::f816:3eff:fe43:9e97",
+                "prefix": "64",
+                "scope": "link"
+            }
+        ],
+        "macaddress": "fa:16:3e:43:9e:97",
+        "module": "virtio_net",
+        "mtu": 1500,
+        "pciid": "virtio0",
+        "promisc": false,
+        "speed": -1,
+        "timestamping": [
+            "tx_software",
+            "rx_software",
+            "software"
+        ],
+        "type": "ether"
+    },
+    "env": {
+        "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+        "HOME": "/home/ubuntu",
+        "LANG": "C.UTF-8",
+        "LOGNAME": "ubuntu",
+        "MOTD_SHOWN": "pam",
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+        "PWD": "/home/ubuntu",
+        "SHELL": "/bin/bash",
+        "SHLVL": "0",
+        "SSH_CLIENT": "134.60.64.148 23370 22",
+        "SSH_CONNECTION": "134.60.64.148 23370 10.0.91.84 22",
+        "SSH_TTY": "/dev/pts/0",
+        "USER": "ubuntu",
+        "XDG_RUNTIME_DIR": "/run/user/1000",
+        "XDG_SESSION_CLASS": "user",
+        "XDG_SESSION_ID": "12",
+        "XDG_SESSION_TYPE": "tty",
+        "_": "/bin/sh"
+    },
+    "fibre_channel_wwn": [],
+    "fips": false,
+    "form_factor": "Other",
+    "fqdn": "baas-benchmark-0-a138f261-507c-5e04-a2ea-2556c598d9c6",
+    "gather_subset": [
+        "all"
+    ],
+    "hostname": "baas-benchmark-0-a138f261-507c-5e04-a2ea-2556c598d9c6",
+    "hostnqn": "",
+    "interfaces": [
+        "ens3",
+        "lo"
+    ],
+    "is_chroot": false,
+    "iscsi_iqn": "",
+    "kernel": "5.4.0-152-generic",
+    "kernel_version": "#169-Ubuntu SMP Tue Jun 6 22:23:09 UTC 2023",
+    "lo": {
+        "active": true,
+        "device": "lo",
+        "features": {
+            "esp_hw_offload": "off [fixed]",
+            "esp_tx_csum_hw_offload": "off [fixed]",
+            "fcoe_mtu": "off [fixed]",
+            "generic_receive_offload": "on",
+            "generic_segmentation_offload": "on",
+            "highdma": "on [fixed]",
+            "hw_tc_offload": "off [fixed]",
+            "l2_fwd_offload": "off [fixed]",
+            "large_receive_offload": "off [fixed]",
+            "loopback": "on [fixed]",
+            "netns_local": "on [fixed]",
+            "ntuple_filters": "off [fixed]",
+            "receive_hashing": "off [fixed]",
+            "rx_all": "off [fixed]",
+            "rx_checksumming": "on [fixed]",
+            "rx_fcs": "off [fixed]",
+            "rx_gro_hw": "off [fixed]",
+            "rx_udp_tunnel_port_offload": "off [fixed]",
+            "rx_vlan_filter": "off [fixed]",
+            "rx_vlan_offload": "off [fixed]",
+            "rx_vlan_stag_filter": "off [fixed]",
+            "rx_vlan_stag_hw_parse": "off [fixed]",
+            "scatter_gather": "on",
+            "tcp_segmentation_offload": "on",
+            "tls_hw_record": "off [fixed]",
+            "tls_hw_rx_offload": "off [fixed]",
+            "tls_hw_tx_offload": "off [fixed]",
+            "tx_checksum_fcoe_crc": "off [fixed]",
+            "tx_checksum_ip_generic": "on [fixed]",
+            "tx_checksum_ipv4": "off [fixed]",
+            "tx_checksum_ipv6": "off [fixed]",
+            "tx_checksum_sctp": "on [fixed]",
+            "tx_checksumming": "on",
+            "tx_esp_segmentation": "off [fixed]",
+            "tx_fcoe_segmentation": "off [fixed]",
+            "tx_gre_csum_segmentation": "off [fixed]",
+            "tx_gre_segmentation": "off [fixed]",
+            "tx_gso_partial": "off [fixed]",
+            "tx_gso_robust": "off [fixed]",
+            "tx_ipxip4_segmentation": "off [fixed]",
+            "tx_ipxip6_segmentation": "off [fixed]",
+            "tx_lockless": "on [fixed]",
+            "tx_nocache_copy": "off [fixed]",
+            "tx_scatter_gather": "on [fixed]",
+            "tx_scatter_gather_fraglist": "on [fixed]",
+            "tx_sctp_segmentation": "on",
+            "tx_tcp6_segmentation": "on",
+            "tx_tcp_ecn_segmentation": "on",
+            "tx_tcp_mangleid_segmentation": "on",
+            "tx_tcp_segmentation": "on",
+            "tx_udp_segmentation": "off [fixed]",
+            "tx_udp_tnl_csum_segmentation": "off [fixed]",
+            "tx_udp_tnl_segmentation": "off [fixed]",
+            "tx_vlan_offload": "off [fixed]",
+            "tx_vlan_stag_hw_insert": "off [fixed]",
+            "vlan_challenged": "on [fixed]"
+        },
+        "hw_timestamp_filters": [],
+        "ipv4": {
+            "address": "127.0.0.1",
+            "broadcast": "",
+            "netmask": "255.0.0.0",
+            "network": "127.0.0.0"
+        },
+        "ipv6": [
+            {
+                "address": "::1",
+                "prefix": "128",
+                "scope": "host"
+            }
+        ],
+        "mtu": 65536,
+        "promisc": false,
+        "timestamping": [
+            "tx_software",
+            "rx_software",
+            "software"
+        ],
+        "type": "loopback"
+    },
+    "lsb": {
+        "codename": "focal",
+        "description": "Ubuntu 20.04.6 LTS",
+        "id": "Ubuntu",
+        "major_release": "20",
+        "release": "20.04"
+    },
+    "machine": "x86_64",
+    "machine_id": "e8feb21632da48b9a4f9e85f84aa136e",
+    "memfree_mb": 31067,
+    "memory_mb": {
+        "nocache": {
+            "free": 31641,
+            "used": 504
+        },
+        "real": {
+            "free": 31067,
+            "total": 32145,
+            "used": 1078
+        },
+        "swap": {
+            "cached": 0,
+            "free": 0,
+            "total": 0,
+            "used": 0
+        }
+    },
+    "memtotal_mb": 32145,
+    "module_setup": true,
+    "mounts": [
+        {
+            "block_available": 11004705,
+            "block_size": 4096,
+            "block_total": 12264286,
+            "block_used": 1259581,
+            "device": "/dev/vda1",
+            "fstype": "ext4",
+            "inode_available": 12996209,
+            "inode_total": 13100800,
+            "inode_used": 104591,
+            "mount": "/",
+            "options": "rw,relatime",
+            "size_available": 45075271680,
+            "size_total": 50234515456,
+            "uuid": "e33ff243-1a00-481d-8bd2-fbc233c723db"
+        },
+        {
+            "block_available": 0,
+            "block_size": 131072,
+            "block_total": 508,
+            "block_used": 508,
+            "device": "/dev/loop0",
+            "fstype": "squashfs",
+            "inode_available": 0,
+            "inode_total": 11954,
+            "inode_used": 11954,
+            "mount": "/snap/core20/1891",
+            "options": "ro,nodev,relatime",
+            "size_available": 0,
+            "size_total": 66584576,
+            "uuid": "N/A"
+        },
+        {
+            "block_available": 0,
+            "block_size": 131072,
+            "block_total": 427,
+            "block_used": 427,
+            "device": "/dev/loop2",
+            "fstype": "squashfs",
+            "inode_available": 0,
+            "inode_total": 658,
+            "inode_used": 658,
+            "mount": "/snap/snapd/19361",
+            "options": "ro,nodev,relatime",
+            "size_available": 0,
+            "size_total": 55967744,
+            "uuid": "N/A"
+        },
+        {
+            "block_available": 0,
+            "block_size": 131072,
+            "block_total": 735,
+            "block_used": 735,
+            "device": "/dev/loop1",
+            "fstype": "squashfs",
+            "inode_available": 0,
+            "inode_total": 815,
+            "inode_used": 815,
+            "mount": "/snap/lxd/24061",
+            "options": "ro,nodev,relatime",
+            "size_available": 0,
+            "size_total": 96337920,
+            "uuid": "N/A"
+        }
+    ],
+    "nodename": "baas-benchmark-0-a138f261-507c-5e04-a2ea-2556c598d9c6",
+    "os_family": "Debian",
+    "pkg_mgr": "apt",
+    "proc_cmdline": {
+        "BOOT_IMAGE": "/boot/vmlinuz-5.4.0-152-generic",
+        "console": [
+            "tty1",
+            "ttyS0"
+        ],
+        "ro": true,
+        "root": "LABEL=cloudimg-rootfs"
+    },
+    "processor": [
+        "0",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "1",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "2",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "3",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "4",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "5",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "6",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "7",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "8",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "9",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "10",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "11",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "12",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "13",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "14",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz",
+        "15",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz"
+    ],
+    "processor_cores": 4,
+    "processor_count": 2,
+    "processor_nproc": 16,
+    "processor_threads_per_core": 2,
+    "processor_vcpus": 16,
+    "product_name": "OpenStack Nova",
+    "product_serial": "NA",
+    "product_uuid": "NA",
+    "product_version": "13.2.1-20220808115737_bd245dd",
+    "python": {
+        "executable": "/usr/bin/python3",
+        "has_sslcontext": true,
+        "type": "cpython",
+        "version": {
+            "major": 3,
+            "micro": 10,
+            "minor": 8,
+            "releaselevel": "final",
+            "serial": 0
+        },
+        "version_info": [
+            3,
+            8,
+            10,
+            "final",
+            0
+        ]
+    },
+    "python_version": "3.8.10",
+    "real_group_id": 1000,
+    "real_user_id": 1000,
+    "selinux": {
+        "status": "Missing selinux Python library"
+    },
+    "selinux_python_present": false,
+    "service_mgr": "systemd",
+    "ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBAKKCTTCPZYFNpFj3ftmJehHe3injeiZYEFpXl+rmXDfQVmFt9xpYXf22mNaSjU4AmdsxRQQqjTj+M6oA6ip70nxR+ngXzxMAAsoG0h462FERx79llJXS3bjJHnIb0n/qCw5yX84+/c+Ozl9vz/85ugSu1NAeQG/4bjvNk2uYZXTfAAAAFQD6NSY6GM1YADlfuHvtLByY6lwi/wAAAIA+8qVb7VFuxJ09svNrsdMesk+ncs+rXC72Cni3dhQ6IxKTfK7jtRKDDxcXXJmuOLnoH0o/pHKRiaBhYgBkvM54yKnIeFqea3q2lnvPjoqtYmyHtWM4T7lZJ5h3UpI947ZiZuQKCxvviqU9q4ohJEp+AB4A3yJ6bK0TwTI/nZPj/QAAAIEAhZiACZXhSDaBq5cJqgS1wa0R+1wuuKU3oEPPsLR8eX/FmFTs416OOoYBxQK25chOZGlsSq7/mHAlNN0HJs9+jedxfPRaCVZ7m8zlyC44wodLkyqv3ghmX1BBBbcqMLrf6ufRLA+NzJf8bqVqsP2kDrBUO5AnMRosze5wlLMHtZ0=",
+    "ssh_host_key_dsa_public_keytype": "ssh-dss",
+    "ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCX07H3i5WnjqKzmfVwMZTbeI37PelTNz2df8P+oQpkwJ3Sfdg5XPNdwDgxw9pHwN1nn1YaevzZifOS21SqrHa4=",
+    "ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
+    "ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIAL3vCpmfWOy7rEuQ4n+zFm248I4GiYGj9/P5O/ZZ5I2",
+    "ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
+    "ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDo9Ya1ZiT7/cg93sJ5rJTyiA/r6g7KsIO9kntvqIuIPShfBU5P8HNKRCXQrRhbztSBTSKFKNYpIAq2kCT7ljb+706j6daFjrsDiYBoID3AxTjv4czXI3XoYMRji+WrWVQl+Rd02Ml0aFB8lUADWXJSBKx14UDm3R8YeFgtX4pE7RADtMziPYDujN3F0/s9CvdmDB8V2GXqf3/KCjtEHlspEaMD3/jTlLS1DzfcCdHWOnhYDV1NTkyhbPY6LWSiZjhP/2tFPmIiNz2ikMtPoP1MXzr7jM+J5XOHJrm6y3FVxc2kXtYikQbftSTI6tKQY4KoURGe2gBAf5cJ1OBsgq8p5YB4v0+p3P235N7yRSGFELKkz1QwN/PFehrZxdTI+i34S88wtCCBbvZUkVYL199AvdVq0ZG4vhLuKzjtjFhsM0f8/N4rztkFZFYgbpE3UfSRePuffBM/NZx7V2D3MyBKIdplcmFzh7aE+cEwemdxJHmtnISX2BP1aAjOaaDGlBM=",
+    "ssh_host_key_rsa_public_keytype": "ssh-rsa",
+    "swapfree_mb": 0,
+    "swaptotal_mb": 0,
+    "system": "Linux",
+    "system_capabilities": [
+        ""
+    ],
+    "system_capabilities_enforced": "True",
+    "system_vendor": "OpenStack Foundation",
+    "uptime_seconds": 51,
+    "user_dir": "/home/ubuntu",
+    "user_gecos": "Ubuntu",
+    "user_gid": 1000,
+    "user_id": "ubuntu",
+    "user_shell": "/bin/bash",
+    "user_uid": 1000,
+    "userspace_architecture": "x86_64",
+    "userspace_bits": "64",
+    "virtualization_role": "guest",
+    "virtualization_type": "openstack"
+}

@@ -1,0 +1,22 @@
+/binary/jdk-17/bin/java -XX:MaxRAMPercentage=85.0 -jar /binary/benchbase/mysql/benchbase.jar -c /binary/benchbase/mysql/config/mysql/sample_twitter_config.xml -b twitter --load=true --create=true --sample 10 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-07-07 14:19:11,742 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TWITTER {com.oltpbenchmark.benchmarks.twitter.TwitterBenchmark}
+Configuration:          /binary/benchbase/mysql/config/mysql/sample_twitter_config.xml
+Type:                   MYSQL
+Driver:                 com.mysql.cj.jdbc.Driver
+URL:                    jdbc:mysql://benchant-rds-mysql-0d68c197-30ed-5ebf-ae4e-c0196bd2e4bc.cawy0mrifex0.eu-central-1.rds.amazonaws.com:3306/benchdb?rewriteBatchedStatements=true&sslMode=DISABLED
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             1024
+Scale Factor:           5000.0
+Terminals:              125
+New Connection Per Txn: false
+
+[INFO ] 2023-07-07 14:19:11,743 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2023-07-07 14:19:11,762 [main]  com.oltpbenchmark.DBWorkload main - Creating new TWITTER database...
+[INFO ] 2023-07-07 14:19:12,223 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TWITTER database...
+[INFO ] 2023-07-07 14:19:12,325 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TWITTER database...
+[INFO ] 2023-07-07 14:19:12,328 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 32 to run 96 Loader Threads.  64 threads will be queued.
+[INFO ] 2023-07-07 14:36:06,978 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 96 Loader Threads [time=1014.65s]
+[INFO ] 2023-07-07 14:36:06,978 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TWITTER database...
+[INFO ] 2023-07-07 14:36:06,978 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution

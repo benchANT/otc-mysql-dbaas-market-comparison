@@ -1,0 +1,22 @@
+{
+ "scalefactor": "5000.0",
+ "Current Timestamp (milliseconds)": 1688744348149,
+ "Benchmark Type": "twitter",
+ "isolation": "TRANSACTION_SERIALIZABLE",
+ "DBMS Version": "8.0.32",
+ "Goodput (requests/second)": 44947.75543196946,
+ "terminals": "125",
+ "DBMS Type": "MYSQL",
+ "Latency Distribution": {
+  "95th Percentile Latency (microseconds)": 5149,
+  "Maximum Latency (microseconds)": 438527,
+  "Median Latency (microseconds)": 2374,
+  "Minimum Latency (microseconds)": 407,
+  "25th Percentile Latency (microseconds)": 1643,
+  "90th Percentile Latency (microseconds)": 4232,
+  "99th Percentile Latency (microseconds)": 12738,
+  "75th Percentile Latency (microseconds)": 3277,
+  "Average Latency (microseconds)": 2781
+ },
+ "Throughput (requests/second)": 44927.9864085214
+}

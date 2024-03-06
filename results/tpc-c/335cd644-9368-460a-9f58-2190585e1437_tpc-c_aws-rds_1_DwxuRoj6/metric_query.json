@@ -1,0 +1,40 @@
+{
+    "MetricDataQueries": [
+        {
+            "Id": "cpu",
+            "MetricStat": {
+                "Metric": {
+                    "Dimensions": [
+                        {
+                            "Name": "DBInstanceIdentifier",
+                            "Value": "benchant-rds-mysql-151cfba2-c195-5937-bac3-c1220cf95867"
+                        }
+                    ],
+                    "MetricName": "CPUUtilization",
+                    "Namespace": "AWS/RDS"
+                },
+                "Period": 60,
+                "Stat": "Average",
+                "Unit": "Percent"
+            }
+        },
+        {
+            "Id": "mem",
+            "MetricStat": {
+                "Metric": {
+                    "Dimensions": [
+                        {
+                            "Name": "DBInstanceIdentifier",
+                            "Value": "benchant-rds-mysql-151cfba2-c195-5937-bac3-c1220cf95867"
+                        }
+                    ],
+                    "MetricName": "FreeableMemory",
+                    "Namespace": "AWS/RDS"
+                },
+                "Period": 60,
+                "Stat": "Average",
+                "Unit": "Bytes"
+            }
+        }
+    ]
+}

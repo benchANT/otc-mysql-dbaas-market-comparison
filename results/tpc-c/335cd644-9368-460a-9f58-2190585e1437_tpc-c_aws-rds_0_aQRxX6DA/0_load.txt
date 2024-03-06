@@ -1,0 +1,22 @@
+/binary/jdk-17/bin/java -XX:MaxRAMPercentage=85.0 -jar /binary/benchbase/mysql/benchbase.jar -c /binary/benchbase/mysql/config/mysql/sample_tpcc_config.xml -b tpcc --load=true --create=true --sample 10 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-07-10 07:10:14,202 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TPCC {com.oltpbenchmark.benchmarks.tpcc.TPCCBenchmark}
+Configuration:          /binary/benchbase/mysql/config/mysql/sample_tpcc_config.xml
+Type:                   MYSQL
+Driver:                 com.mysql.cj.jdbc.Driver
+URL:                    jdbc:mysql://benchant-rds-mysql-738b43b8-ca2e-5fa7-b6f4-64a4b6726f7a.cawy0mrifex0.eu-central-1.rds.amazonaws.com:3306/benchdb?rewriteBatchedStatements=true&sslMode=DISABLED
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             1024
+Scale Factor:           150.0
+Terminals:              120
+New Connection Per Txn: false
+
+[INFO ] 2023-07-10 07:10:14,203 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2023-07-10 07:10:14,223 [main]  com.oltpbenchmark.DBWorkload main - Creating new TPCC database...
+[INFO ] 2023-07-10 07:10:14,798 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TPCC database...
+[INFO ] 2023-07-10 07:10:14,978 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TPCC database...
+[INFO ] 2023-07-10 07:10:14,980 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 16 to run 151 Loader Threads.  135 threads will be queued.
+[INFO ] 2023-07-10 07:21:37,992 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 151 Loader Threads [time=683.01s]
+[INFO ] 2023-07-10 07:21:37,992 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TPCC database...
+[INFO ] 2023-07-10 07:21:37,993 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution
