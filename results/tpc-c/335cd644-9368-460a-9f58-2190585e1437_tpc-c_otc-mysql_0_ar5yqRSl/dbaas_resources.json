@@ -1,0 +1,63 @@
+{
+    "alias": "",
+    "associated_with_ddm": false,
+    "backup_strategy": {
+        "keep_days": 7,
+        "start_time": "02:00-03:00"
+    },
+    "bpDomainId": "",
+    "bpType": "Default",
+    "charge_info": {
+        "charge_mode": "postPaid"
+    },
+    "cpu": "16",
+    "created": "2023-07-03T15:54:58+0000",
+    "datastore": {
+        "type": "MySQL",
+        "version": "8.0"
+    },
+    "db_user_name": "root",
+    "disk_encryption_id": "",
+    "enable_ssl": false,
+    "enterprise_project_id": "0",
+    "flavor_ref": "rds.mysql.s1.4xlarge",
+    "ha": {},
+    "id": "ccf5bd8d30df4cda80359ad65422e42din01",
+    "maintenance_window": "18:00-22:00",
+    "mem": "64",
+    "name": "benchant-MYSQL-2511669",
+    "nodes": [
+        {
+            "availability_zone": "eu-de-02",
+            "id": "62a965fcc0d1407dbf77640dfc77438cno01",
+            "name": "benchant-MYSQL-2511669_node0",
+            "role": "master",
+            "status": "ACTIVE"
+        }
+    ],
+    "order_id": "",
+    "port": 3306,
+    "private_dns_names": [],
+    "private_ips": [
+        "10.0.189.212"
+    ],
+    "public_ips": [
+        "80.158.5.166"
+    ],
+    "read_only_by_user": false,
+    "region": "eu-de",
+    "related_instance": [],
+    "security_group_id": "0379f10d-7a34-4b61-a1e0-03cbd373de60",
+    "status": "ACTIVE",
+    "subnet_id": "67077d8e-3e53-4770-b029-267a796007f4",
+    "switch_strategy": "",
+    "tags": [],
+    "time_zone": "UTC",
+    "type": "Single",
+    "updated": "2023-07-03T15:55:00+0000",
+    "volume": {
+        "size": 500,
+        "type": "ULTRAHIGH"
+    },
+    "vpc_id": "c6915f37-81c1-49b2-915e-27f89faf2d3c"
+}
